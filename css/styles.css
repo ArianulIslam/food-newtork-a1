@@ -1,0 +1,68 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin : 0px
+}
+
+.section-description{
+    width: 80%;
+    padding-bottom:50px;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    color :#575757;
+   
+}
+#top-section{
+    display: flex;
+}
+#middle-section{
+    display: flex;
+    background-image: url(../img/shapes/7.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-color: papayawhip;
+    background-position: center;
+}
+.text-orange{
+    color: coral;
+}
+
+.text-gray{
+    color :#575757;
+}
+
+.left-side{
+    width: 60%;
+    padding: 100px 100px;
+    
+}
+
+.right-side img{
+  width: 100%;
+
+}
+.right-side-middle-section img{
+    width: 50%;
+}
+.btn-orange{
+
+    text-decoration: none;
+    background-image: linear-gradient(to bottom right,red, yellow);
+    padding:20px 50px;
+    color: white;
+    border-radius: 100px;
+
+}
+
+ 
+.text-center{
+    text-align:center;
+    padding: 0 30%;
+}
