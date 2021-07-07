@@ -38,6 +38,10 @@ h1{
     color :#575757;
 }
 
+.text-white{
+    color :#ffffff;
+}
+
 .left-side{
     width: 60%;
     padding: 100px 100px;
@@ -50,6 +54,8 @@ h1{
 }
 .right-side-middle-section img{
     width: 50%;
+    padding-top: 100px;
+    padding-left: 100px;
 }
 .btn-orange{
 
@@ -63,6 +69,47 @@ h1{
 
  
 .text-center{
-    text-align:center;
+    text-align: center;
     padding: 0 30%;
+}
+
+.food-card{
+
+    display: flex;
+    padding: 40px 100px;
+}
+
+.counter-section{
+    padding: 40px 100px;
+    display: flex;
+}
+
+.number-row{
+  
+    padding: 40px;
+    box-shadow: 5px 10px 18px #888888; 
+    width: 100%;
+    display: inline-flex;
+}
+
+.number{
+   width: 30%;
+}
+
+.card{
+ width: 30%;
+ padding: 2%;
+ margin: 10px;
+ box-shadow: 5px 10px 18px #888888;
+
+}
+.card img{
+    width: 100%;
+    height: 300px;
+}
+
+footer{
+    margin-top: 40px;
+    background-color: black;
+    padding: 60px;
 }
